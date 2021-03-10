@@ -1,0 +1,149 @@
+/* reset-css */
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* header */
+
+.header {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+}
+
+.header a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.header a:hover {
+    background-color: #000;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+
+/* Responsive Header Menu*/
+
+@media screen and (max-width: 500px) {
+    .header a {
+        float: none;
+        display: block;
+    }
+}
+
+
+/* footer */
+
+.footer {
+    background-color: #282d32;
+    color: white;
+    text-align: center;
+}
+
+.footer .social {
+    margin-bottom: 10px;
+}
+
+.footer .social a {
+    color: white;
+    padding: 4px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.footer .social a:nth-child(2):hover {
+    color: blue;
+}
+
+.footer .social a:nth-child(3):hover {
+    color: aqua;
+}
+
+.footer .social a:nth-child(4):hover {
+    color: rgb(185, 88, 88);
+}
+
+.footer .social a:nth-child(5):hover {
+    color: red;
+}
+
+.footer .social a:nth-child(6):hover {
+    color: rgb(80, 80, 146);
+}
+
+
+/* main content*/
+
+.image {
+    text-align: center;
+}
+
+.image h1 {
+    color: #555;
+}
+
+.image img {
+    width: 100%;
+    margin: 10px;
+}
+
+.category {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+    transition: 0.2s;
+    margin: 10px;
+    border-radius: 0.2em;
+}
+
+.category a {
+    text-decoration: none;
+    color: black;
+}
+
+.category:hover {
+    background-color: gray;
+}
+
+.devices {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 0.2em;
+    margin: 10px;
+    transition: 0.2s;
+}
+
+.devices a {
+    color: black;
+    text-decoration: none;
+}
+
+.devices:hover {
+    background-color: gray;
+}
+
+.device-pic {
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}
+
+.device-pic img {
+    width: 100%;
+}
+
+.device-infos {
+    padding: 10px;
+}

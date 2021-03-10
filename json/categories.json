@@ -1,0 +1,42 @@
+[{
+        "id": 1,
+        "name": "Category 1",
+        "pic": "images/elektronik2.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Category 2",
+        "pic": "images/elektronik2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Category 3",
+        "pic": "images/elektronik2.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Category 4",
+        "pic": "images/elektronik2.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Category 5",
+        "pic": "images/elektronik2.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Category 6",
+        "pic": "images/elektronik2.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Category 7",
+        "pic": "images/elektronik2.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Category 8",
+        "pic": "images/elektronik2.jpg"
+    }
+
+]
